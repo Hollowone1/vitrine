@@ -4,44 +4,38 @@
 
 @font-face {
     font-family: MADE Tommy;
-    src: url('./assets/font/MADE\ TOMMY\ Black.otf');
+    src: url('../font/MADE\ TOMMY\ Black.ttf');
     font-weight: 500;
   }
 
 @font-face {
     font-family: MADE Tommy;
-    src: url('./assets/font/MADE\ TOMMY\ Bold.otf');
+    src: url('../font/MADE\ TOMMY\ Bold.ttf');
     font-weight: 700;
 }
 
 @font-face {
     font-family: MADE Tommy;
-    src: url('./assets/font/MADE\ TOMMY\ ExtraBold.otf');
+    src: url('../font/MADE\ TOMMY\ ExtraBold.ttf');
     font-weight: 900;
 }
 
 @font-face {
     font-family: MADE Tommy;
-    src: url('./assets/font/MADE\ TOMMY\ Light.otf');
+    src: url('../font/MADE\ TOMMY\ Light.ttf');
     font-weight: 300;
 }
 
 @font-face {
     font-family: MADE Tommy;
-    src: url('./assets/font/MADE\ TOMMY\ Medium.otf');
+    src: url('../font/MADE\ TOMMY\ Medium.ttf');
     font-weight: 400;
 }
 
 @font-face {
     font-family: MADE Tommy;
-    src: url('./assets/font/MADE\ TOMMY\ Regular.otf');
+    src: url('../font/MADE\ TOMMY\ Regular.ttf');
     font-weight: 500;
-}
-
-@font-face {
-    font-family: MADE Tommy;
-    src: url('./assets/font/MADE\ TOMMY\ Thin.otf');
-    font-weight: 200;
 }
 
 .font{
