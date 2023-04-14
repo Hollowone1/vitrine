@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: MADE Tommy;
+    src: url('./assets/font/MADE\ TOMMY\ Black.otf');
+    font-weight: 500;
+  }
+
+@font-face {
+    font-family: MADE Tommy;
+    src: url('./assets/font/MADE\ TOMMY\ Bold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: MADE Tommy;
+    src: url('./assets/font/MADE\ TOMMY\ ExtraBold.otf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: MADE Tommy;
+    src: url('./assets/font/MADE\ TOMMY\ Light.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: MADE Tommy;
+    src: url('./assets/font/MADE\ TOMMY\ Medium.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: MADE Tommy;
+    src: url('./assets/font/MADE\ TOMMY\ Regular.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: MADE Tommy;
+    src: url('./assets/font/MADE\ TOMMY\ Thin.otf');
+    font-weight: 200;
+}
+
+.font{
+    font-family: 'MADE Tommy', sans-serif;
+    
+}
+.font-very-bold{
+    font-family: 'MADE Tommy', sans-serif;
+    font-weight: 900;    
+}
+
+.font-bold{
+    font-family: 'MADE Tommy', sans-serif;
+    font-weight: 700;
+}
+
+.font-light{
+  font-family: 'MADE Tommy', sans-serif;
+  font-weight: 300;
+}
