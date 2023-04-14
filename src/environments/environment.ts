@@ -4,7 +4,11 @@
 
 export const environment = {
   production: false,
-  secureAccess:false
+  heroku: true,
+  secureAccess: false,
+  devKey: 'gLYpn4SPH93sxsWC42Mj3275e',
+  apiURL: 'http://localhost/IDNET_v4_API/api/',
+  recaptchaKey: '6LekaIshAAAAAPjJtKtokCFWvrIOJt2bQUAURt41'
 };
 
 /*
