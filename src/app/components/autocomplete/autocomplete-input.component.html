@@ -1,0 +1,33 @@
+<div class="keywords-container flow-root">
+
+    <div class="keyword-input-container">
+  
+      <input type="text" class="form-control autocomplete-input keyword-input" [class.is-open]="!hidden" [placeholder]="placeholderValue | translate" autocomplete="off" #autocomplete_input_element (input)="updateDatas()" (keyup)="keyUp($event)" (focus)="setHidden(false)" [id]="inputId" name="autocomplete_input_value" #autocomplete_input_value="ngModel" minlength="3" maxlength="255" [required]="required" ngModel>
+      <div class="invalid-tooltip" *ngIf="form.submitted && required && !getValue().length">{{ 'COMMON.ERRORS.REQUIRED' | translate }}</div>
+  
+      <div class="autocomplete_dropdown uk-animation-fade" [hidden]="hidden">
+        <ul>
+  
+          <li *ngFor="let data of datas; let i = index">
+            <a href="javascript:void(0)" (click)="addElement(data)" [class.autocomplete-dropdown-selected]="selected == i">
+              <img #thumb [src]="data.avatar | thumb: [thumb, type, 'avatar', 35, 35, data.username]" alt="" class="list-avatar">
+              <div class="list-name">{{ data[dataName] }}</div>
+            </a>
+          </li>
+  
+          <li class="px-2 py-1" *ngIf="!datas.length">
+            Aucun résultat à afficher
+          </li>
+  
+        </ul>
+      </div>
+  
+    </div>
+  
+    <div class="keywords-list" *ngIf="values.length">
+      <span class="keyword" *ngFor="let value of values"><span class="keyword-remove" (click)="removeElementFromValues(value)"></span><span class="keyword-text">{{ value[dataName] }}</span></span>
+    </div>
+  
+    <div class="clearfix"></div>
+  
+  </div>
