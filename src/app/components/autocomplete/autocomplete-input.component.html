@@ -2,15 +2,15 @@
 
     <div class="keyword-input-container">
   
-      <input type="text" class="form-control autocomplete-input keyword-input" [class.is-open]="!hidden" [placeholder]="placeholderValue | translate" autocomplete="off" #autocomplete_input_element (input)="updateDatas()" (keyup)="keyUp($event)" (focus)="setHidden(false)" [id]="inputId" name="autocomplete_input_value" #autocomplete_input_value="ngModel" minlength="3" maxlength="255" [required]="required" ngModel>
-      <div class="invalid-tooltip" *ngIf="form.submitted && required && !getValue().length">{{ 'COMMON.ERRORS.REQUIRED' | translate }}</div>
+      <input type="text" class="shadow-sm appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" [class.is-open]="!hidden" [placeholder]="placeholderValue | translate" autocomplete="off" #autocomplete_input_element (input)="updateDatas()" (keyup)="keyUp($event)" (focus)="setHidden(false)" [id]="inputId" name="autocomplete_input_value" #autocomplete_input_value="ngModel" minlength="3" maxlength="255" [required]="required" ngModel>
+      <div class="invalid: border-red-500 invalid:text-red-500" *ngIf="form.submitted && required && !getValue().length">{{ 'COMMON.ERRORS.REQUIRED' | translate }}</div>
   
       <div class="autocomplete_dropdown uk-animation-fade" [hidden]="hidden">
         <ul>
   
           <li *ngFor="let data of datas; let i = index">
             <a href="javascript:void(0)" (click)="addElement(data)" [class.autocomplete-dropdown-selected]="selected == i">
-              <img #thumb [src]="data.avatar | thumb: [thumb, type, 'avatar', 35, 35, data.username]" alt="" class="list-avatar">
+              <img #thumb [src]="data.avatar | thumb: [thumb, type, 'avatar', 35, 35, data.username]" alt="" class="Small avatar">
               <div class="list-name">{{ data[dataName] }}</div>
             </a>
           </li>
