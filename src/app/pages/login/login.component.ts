@@ -40,21 +40,6 @@ export class LoginComponent implements OnInit{
         error: res => this.errors = res,
         });
 
-    //     if (res.status == 200)
-    //       this.authService.login(res.datas, true, this.ref, () => {
-    //         this.themeService.init();
-    //         this.i18nService.initLogged();
-    //       });
-    //     else if (res.status == 400)
-    //       this.errors = res.errors;
-    //   },
-    //   (errors) => {
-    //     this.loading = false;
-    //   },
-    //   () => {
-    //     this.loading = false;
-    //   });
-
     }
   
     togglePasswordShow() {
