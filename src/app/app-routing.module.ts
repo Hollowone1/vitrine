@@ -38,12 +38,17 @@ const routes: Routes = [
       path:'legal',
       loadChildren: () => import('./pages/legal/legal.module').then(m => m.LegalModule)
     },
+    
   ]),
   LayoutFull.childRoutes([
     {
       path: '**',
       loadChildren: () => import('./pages/error/error.module').then(m => m.ErrorModule)
-    }
+    },
+    {
+      path:'maintenance',
+      loadChildren: () => import('./pages/maintenance/maintenance.module').then(m => m.MaintenanceModule)
+    },
   ])
 
 

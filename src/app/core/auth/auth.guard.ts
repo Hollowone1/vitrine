@@ -27,8 +27,16 @@ export class AuthGuard implements CanActivate {
     if (isPlatformServer(this.platformId))
       canContinue = true;
 
+      if (this.authService.inMaintenance()) {
+        this.router.navigate(['/maintenance']);
+      } else {
+        this.router.navigate(['/']);
+      }
+
     return canContinue;
 
+    
   }
-
 }
+
+
