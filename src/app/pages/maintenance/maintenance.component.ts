@@ -4,7 +4,7 @@ import { SeoService } from '../../services/seo.service';
 
 
 @Component({
-  selector: 'app-legal',
-  templateUrl: './legal.component.html'
+  selector: 'app-maintenance',
+  templateUrl: './maintenance.component.html'
 })
-export class LegalComponent{}
+export class maintenanceComponent{}
