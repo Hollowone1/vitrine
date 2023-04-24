@@ -12,4 +12,4 @@ import { ServicesDetailsComponent } from './services-details/services-details.co
         CommonModule,
     ]
 })
-export class ProjectsModule{}
+export class ServicesModule{}
