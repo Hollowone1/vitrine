@@ -1,0 +1,107 @@
+{
+
+    "SEO": {
+      "INDEX": {
+        "TITLE": "Index",
+        "DESCRIPTION": "Bonjour",
+        "KEYWORDS": "Blabla"
+      },
+      "ERROR": {
+        "TITLE": "Index",
+        "DESCRIPTION": "Bonjour",
+        "KEYWORDS": "Blabla"
+      },
+      "BLOGCATEGORY": {
+        "TITLE": "Catégorie de blog : {{ name }}"
+      }
+    },
+  
+    "COMMON": {
+      "FATALERROR": "Une erreur fatale s'est produite.",
+      "NETWORKERROR": "Vous êtes actuellement hors ligne.",
+      "HOME": "Accueil",
+      "HOMEPAGE":"Page d'accueil",
+      "BROWSE": "Ventes",
+      "BLOG": "Actualités",
+      "HELP": "Centre d'aide",
+      "CONTACT": "Nous contacter",
+      "LOGIN": "Me connecter",
+      "PERSONALINFORMATIONS": "Informations personnelles",
+      "OFFERS": "Annonces",
+      "ORDERS": "Enchères et achats",
+      "WISHLIST": "Liste de souhaits",
+      "REVIEWS": "Avis",
+      "NOTIFICATIONS": "Notifications",
+      "SECURITY": "Securité",
+      "LOGOUT": "Déconnexion",
+      "HEYTHERE":"Salut",
+      "WELCOMEBACK":"Content de vous revoir",
+      "DONTHAVEACCOUNT":"Vous n'avez pas de compte?",
+      "SIGNUPHERE":"Vous inscrire ici",
+      "EMAIL": "Adresse email",
+      "PASSWORD": "Mot de passe",
+      "FORGOTPASSWORD": "Mot de passe oublié?",
+      "PLACEHOLDERS":{
+        "ENTERPASSWORD":"Entrez votre mot de passe",
+        "ENTEREMAIL":"Entrez votre email"
+      },
+      "ERRORS":{
+        "REQUIRED":"Entrez votre email s'il-vous-plais",
+        "PATTERN":"Entrez un email valide s'il-vous-plais",
+        "ENTERPASSWORD":"Entrez votre mot de passe s'il-vous-plais",
+        "PASSWORDMUST":"Ton nouveau mot de passe doit avoir 8 caractères ou plus, au moins 1 majuscule, 1 minuscule et 1 chiffre.",
+        "INCORRECTID":"Tes identifiants sont incorrects",
+        "PASSWORDDIFFERENT":"Le nouveau mot de passe doit être différent de l'actuel.",
+        "PASSWORDCONFIRMATION":"Le nouveau mot de passe et sa confirmation sont différents.",
+        "TRYAGAIN":"Réessayes ou.",
+        "CLICKHERE":"clique ici",
+        "FORGOTID":"si tu as oublié tes identifiants",
+        "BANNEDID":"Ton compte a été banni. Contacte-nous si tu souhaites contester ce bannissement ou obtenir plus d'informations."
+      },
+      "PLSPASSWORD":" Entrez votre mot de passe s'il-vous-plais",
+      "SIGNIN":"S'identifier",
+      "GOBACK":"Retour",
+      "PASSWORDCONFIRM":"Confirmez votre mot de passe"
+    },
+  
+    "404":{
+      "PAGENOTFOUND":"Page non trouvée",
+      "APOLOGIES":"Désolé, nous ne trouvons pas la page que vous recherchez. Nous vous suggérons d'aller sur la page d'accueil pendant que nous résolvons le problème."
+    },
+  
+    "HEADER": {
+      "BUTTON": {
+        "ADD": "Ajouter",
+        "ANOFFER": "une vente"
+      }
+    },
+  
+    "PASSWORDLOSTPAGE":{
+      "RESETPASSWORD":"Si l'adresse mail correspond bien à un compte, nous t'avons envoyé un mail avec ton lien de réinitialisation.",
+      "LOOKSPAM":"Penses à regarder dans le dossier SPAM ou contacte-nous si tu ne l'as pas reçu."
+    },
+  
+    "RESETPASSWORDPAGE":{
+      "PASSWORDCHANGED":"Votre mot de passe a bien été changé.",
+      "CANCONNECT":"Vous pouvez à présent vous connecter en ",
+      "CLICKHERE":"Cliquant ici"
+    },
+  
+    "FOOTER": {
+      "QUICKACCESS": "Accès rapide",
+      "ADDSALE": "Ajouter une vente",
+      "ABOUTUS": "Qui sommes nous ?",
+      "ACCOUNT": "Mon Compte",
+      "LASTSNEWS": "Les dernières actus",
+      "DOWNLOADOURAPP": "Téléchargez notre application",
+      "DOWNLOADOURAPPINSTRUCTIONS": "Trouver tous ce dont vous avez besoin pour acheter, vendre et louer votre bien dans notre nouvelle application IDNET",
+      "LEGAL": "Mention légales",
+      "TERMS": "Conditions générales de vente",
+      "CONDITIONS": "Conditions générales d'utilisation",
+      "ALLRIGHTSRESERVED": "Tout droits réservés",
+      "MADEWITHLOVEBY": "Réalisé avec ❤ par",
+      "GOTOP": "Remonter"
+    }
+  
+  
+  }

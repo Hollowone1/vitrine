@@ -1,0 +1,55 @@
+{
+
+    "SEO": {
+      "INDEX": {
+        "TITLE": "Home",
+        "DESCRIPTION": "Home",
+        "KEYWORDS": "Home"
+      },
+      "ERROR": {
+        "TITLE": "Index",
+        "DESCRIPTION": "Bonjour",
+        "KEYWORDS": "Blabla"
+      }
+    },
+  
+    "COMMON": {
+      "HOME": "Home",
+      "BROWSE": "Browse",
+      "BLOG": "Blog",
+      "HELP": "Centre d'aide",
+      "CONTACT": "Nous contacter",
+      "LOGIN": "Me connecter"
+    },
+  
+    "HEADER": {
+      "BUTTON": {
+        "ADD": "Ajouter",
+        "ANOFFER": "une vente"
+      }
+    },
+  
+    "FOOTER": {
+      "QUICKACCESS": "Accès rapide",
+      "ADDSALE": "Ajouter une vente",
+      "ABOUTUS": "Qui sommes nous ?",
+      "ACCOUNT": "Mon Compte",
+      "PERSONALINFORMATIONS": "Informations personnelles",
+      "OFFERS": "Annonces",
+      "ORDERS": "Enchères et achats",
+      "WISHLIST": "Liste de souhaits",
+      "REVIEWS": "Avis",
+      "NOTIFICATIONS": "Notifications",
+      "SECURITY": "Securité",
+      "LASTSNEWS": "Les dernières actus",
+      "DOWNLOADOURAPP": "Téléchargez notre application",
+      "DOWNLOADOURAPPINSTRUCTIONS": "Trouver tous ce dont vous avez besoin pour acheter, vendre et louer votre bien dans notre nouvelle application IDNET",
+      "LEGAL": "Mention légales",
+      "TERMS": "Conditions générales de vente",
+      "CONDITIONS": "Conditions générales d'utilisation",
+      "ALLRIGHTSRESERVED": "Tout droits réservés",
+      "MADEWITHLOVEBY": "Réalisé avec ❤ par",
+      "GOTOP": "Remonter"
+    }
+  
+  }
