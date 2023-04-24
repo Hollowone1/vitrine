@@ -6,7 +6,7 @@
             <img src="./assets/img/Accueil/IDNET.svg" class="w-5 h-5 mx-2" alt="">
             </a>
             <div class="flex justify-end sm:justify-start">
-                <button type="button" class=" rounded-md w-100 flex pt-1 sm:mx-2  text-black dark:text-white">
+                <button type="button" id="mainButton" class=" rounded-md w-100 flex pt-1 sm:mx-2  text-black dark:text-white" (click)="selectList()">
                     <span class="sr-only">Open main menu</span>
                     <svg class="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -21,7 +21,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div id="open">
         <div class="md:py-5 lg:py-7 sm:py-0 py-3 grid grid-cols-3 md:h-auto">
             <div class="flex flex-row lg:pt-12 md:mx-2 col-auto col-start-1 h-auto sm:pt-2">
                 <p class="font uppercase mx-2 text-xl text-black dark:text-white active:underline">fr</p>
