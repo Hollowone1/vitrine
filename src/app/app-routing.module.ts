@@ -35,8 +35,16 @@ const routes: Routes = [
       loadChildren: () => import('./pages/legal/legal.module').then(m => m.LegalModule)
     },
     {
-      path:'legal',
-      loadChildren: () => import('./pages/legal/legal.module').then(m => m.LegalModule)
+      path:'login',
+      loadChildren: () => import('./pages/login/login.module').then(m => m.LoginModule)
+    },
+    {
+      path:'reset-password',
+      loadChildren: () => import('./pages/reset-password/reset-password.module').then(m => m.ResetPasswordModule)
+    },
+    {
+      path:'password-lost',
+      loadChildren: () => import('./pages/password-lost/password-lost.module').then(m => m.PasswordLostModule)
     },
     
   ]),
