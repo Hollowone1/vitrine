@@ -24,19 +24,7 @@ export class AuthService {
   }
 
   setUser(datas: any) {
-    //this.user = datas;
-    this.user = {
-      first_name: 'Gauthier',
-      last_name: 'JJQT',
-      birthdate: '1992-12-03',
-      mobile: '06 45 70 77 94',
-      address: 'Adresse',
-      zip_code: '88000',
-      city: 'Epinal',
-      country: 'ci',
-      avatar: '',
-      instructor_status: 0
-    }
+    this.user = datas;
   }
 
   login(datas: any, redirect: boolean = false, ref: string = '', callback: Function = () => {}) {
