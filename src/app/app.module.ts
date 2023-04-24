@@ -19,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { ErrorCatchingInterceptor } from './core/interceptors/error-catching.interceptor';
 
-
+import { LayoutDefaultModule } from './layouts/layout-default/layout-default.module';
+import { LayoutFullModule } from './layouts/layout-full/layout-full.module';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -58,6 +59,8 @@ export function HttpTranslateLoader(http: HttpClient) {
     ToastrModule.forRoot({
       preventDuplicates: true
     }),
+    LayoutDefaultModule,
+    LayoutFullModule
 
   ],
   providers: [

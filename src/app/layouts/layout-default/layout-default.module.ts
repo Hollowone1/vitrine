@@ -2,17 +2,20 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
+import { LayoutDefaultComponent } from './layout-default.component';
 
-import { footerComponent } from '../footer/footer.component';
+
+import { navbarModule } from 'src/app/layouts/navbar/navbar.module';
 
 @NgModule({
   declarations: [
-    footerComponent
+    LayoutDefaultComponent
   ],
   imports: [
     CommonModule,
     RouterModule,
-    TranslateModule
+    TranslateModule,
+    navbarModule
   ]
 })
 export class LayoutDefaultModule { }
