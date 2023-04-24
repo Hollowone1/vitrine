@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import 'tailwind';
+@import 'vendors';
+@import 'utilities';
+@import 'buttons';
+@import 'app';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+* {
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background: #F9F9F9;
+}
+
+@font-face {
+  font-family: 'Tommy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/tommy_regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Tommy';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../fonts/tommy_extrabold.otf') format('opentype');
+}

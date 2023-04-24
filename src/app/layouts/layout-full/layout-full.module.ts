@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 import { LayoutFullComponent } from './layout-full.component';
+import { navbarModule } from '../navbar/navbar.module';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { LayoutFullComponent } from './layout-full.component';
   imports: [
     CommonModule,
     RouterModule,
+    navbarModule
   ]
 })
 export class LayoutFullModule { }

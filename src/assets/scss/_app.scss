@@ -1,0 +1,109 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import 'ngx-toastr/toastr';
+
+@keyframes loadingKeyFrame {
+	to {
+		transform:rotate(360deg)
+	}
+}
+
+button.loading {
+	text-indent: 10000%;
+	white-space: nowrap;
+	overflow: hidden;
+  pointer-events:none;
+  position:relative;
+	opacity: .55;
+	transition: opacity .3s
+}
+
+button.loading:before {
+	left:calc(50% - .7em);
+	position:absolute;
+  bottom: calc(50% - .7em);
+	-webkit-animation:loadingSpinner 500ms infinite linear;
+	animation:loadingKeyFrame 500ms infinite linear;
+	border:3px solid #ffffff!important;
+	border-radius:100%;
+	border-right-color:transparent!important;
+	border-top-color:transparent!important;
+	content:"";
+	display:inline-block;
+	height:1.4em;
+	width:1.4em
+}
+
+input[type="submit"].disabled, button.disabled {
+	opacity: .55;
+  cursor: not-allowed;
+}
+
+.grecaptcha-badge {
+	display: none!important
+}
+
+.toast-info {
+	background-image: unset!important
+}
+
+.toast-message {
+	display: flex;
+	align-items: center;
+	gap: 1em
+}
+
+.toast-message i {
+	font-size: 2.3em
+}
+
+.toast-container {
+	position: fixed!important;
+  bottom: 75px;
+}
+
+.toast-container .ngx-toastr {
+	color: rgb(212,214, 218);
+	border-radius: .5rem!important;
+	background-color: #202125!important;
+	padding: 15px!important;
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+	box-shadow: unset;
+	transition: box-shadow 0.4s ease 0s;
+	margin-right: 20px
+}
+
+.toast-container .ngx-toastr:hover {
+	box-shadow: 0 0 12px #000000bf!important
+}
+
+.ngx-toastr .toast-close-button span {
+	display:block;
+  line-height: 0px
+}
+
+.ngx-toastr .toast-close-button {
+	display:block;
+	width: 24px;
+	flex-shrink: 0;
+	flex-grow: 0;
+	margin-left: auto;
+	height: 24px;
+	background-color: #0e0f11!important;
+	color: rgb(212, 214, 218);
+	border-radius: 100%;
+	font-weight: 100;
+	text-shadow: unset;
+	position: unset;
+	right: unset;
+	top: unset;
+	float: unset;
+	padding-bottom: 2px
+}
+
+.ngx-toastr .toast-close-button:hover {
+	color: white!important;
+	background-color:gray!important;
+	opacity:1!important
+}
