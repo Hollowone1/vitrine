@@ -51,18 +51,10 @@ export class ResetPasswordComponent implements OnInit {
       this.errors = [6];
       this.loading = false;
     } else {
-      this.recaptcha.HttpPost('reset-password', { rpid: this.rpid, rpt: this.rpt, password: form.password }).subscribe((res: any) => {
-        if (res.status == 200)
-          this.success = true;
-        else if (res.status == 400)
-          this.errors = res.errors;
-      },
-      (errors) => {
-        this.loading = false;
-      },
-      () => {
-        this.loading = false;
-      });
+        this.recaptcha.HttpPost('reset-password', { rpid: this.rpid, rpt: this.rpt, password: form.password }).subscribe({
+            next: res => this.success = true,
+            error: err => this.errors = err.errors,
+        });
     }
   }
 
