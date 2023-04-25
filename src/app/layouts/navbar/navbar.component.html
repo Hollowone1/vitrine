@@ -15,7 +15,7 @@
                     </button>
                 </div>
             </div>
-            <div class="sm:flex justify-end w-[150px]">
+            <div class="hidden sm:flex flex-row justify-end w-[150px]">
                 <div class="relative">
                     <a class="font-bold text-black dark:text-white z-50 absolute" href="contact.html">Prendre RDV</a>
                     <img src="./assets/img/general/circle.png" class=" opacity-40 absolute" style="bottom:-36px; z-index: 0;">
@@ -24,27 +24,29 @@
         </div>
         <div id="open">
             <div class="md:py-5 lg:py-7 sm:py-0 py-3 grid grid-cols-3 md:h-auto">
-                <div class="flex flex-row lg:pt-12 md:mx-2 col-auto col-start-1 h-auto sm:pt-2">
-                    <p class="font uppercase mx-2 text-xl text-black dark:text-white active:underline">fr</p>
-                    <p class="font uppercase text-xl text-black dark:text-white active:underline">en</p>
-                </div>
-                <div class="flex flex-row md:pt-4 md:mx-2 col-auto col-start-1 h-auto">
-                    <img src="./assets/img/navmenu/night-light.png" class="w-6 h-6 mx-2 active:underline" alt="">
-                    <img src="./assets/img/navmenu/brightness.png" class="w-6 h-6 active:underline" alt="">
+                <div>
+                    <div class="flex flex-row lg:pt-12 md:mx-2 col-auto col-start-1 h-auto sm:pt-2">
+                        <p class="font uppercase mx-2 text-xl text-black dark:text-white active:underline">fr</p>
+                        <p class="font uppercase text-xl text-black dark:text-white active:underline">en</p>
+                    </div>
+                    <div class="flex flex-row md:pt-4 md:mx-2 col-auto col-start-1 h-auto">
+                        <img src="./assets/img/navmenu/night-light.png" class="w-6 h-6 mx-2 active:underline" alt="">
+                        <img src="./assets/img/navmenu/brightness.png" class="w-6 h-6 active:underline" alt="">
+                    </div>
                 </div>
                 <div class="flex col col-auto col-start-2 h-auto">
-                    <ul class="py-2 xl:text-8xl lg:text-6xl md:text-4xl sm:text-4xl text-md font-very-bold uppercase absolute xl:left-96 xl:top-36 lg:left-64 lg:top-[150px] md:top-[110px] md:left-52 sm:top-[96px] sm:left-48 top-[165px] right-16">
+                    <ul class="py-2 xl:text-8xl lg:text-6xl md:text-4xl sm:text-4xl font-very-bold uppercase ">
                         <li>
-                            <a href="services.html" class="text-black dark:text-white mx-auto"><i class="fa-solid fa-arrow-right text-red-500 dark:text-emerald-500 "></i>services<i class="fa-solid fa-arrow-right hover:dark:text-emerald-500 hover:text-red-500"></i></a>
+                            <a href="services.html" class="text-black dark:text-white mx-auto"><fa-icon [icon]="faArrowRight" class=" text-red-500 dark:text-emerald-500 "></fa-icon>services<fa-icon [icon]="faArrowRight" class="fa-solid fa-arrow-right hover:dark:text-emerald-500 hover:text-red-500"></fa-icon></a>
                         </li>
                         <li>
-                            <a href="projects.html" class="text-black dark:text-white"><i class="fa-solid fa-arrow-right text-red-500 dark:text-emerald-500"></i>projets<i class="fa-solid fa-arrow-right hover:dark:text-emerald-500 hover:text-red-500"></i></a>
+                            <a href="projects.html" class="text-black dark:text-white"><fa-icon [icon]="faArrowRight" class=" text-red-500 dark:text-emerald-500 "></fa-icon>projets<fa-icon [icon]="faArrowRight" class="fa-solid fa-arrow-right hover:dark:text-emerald-500 hover:text-red-500"></fa-icon></a>
                         </li>
                         <li>
-                            <a href="teams.html" class="text-black dark:text-white"><i class="fa-solid fa-arrow-right text-red-500 dark:text-emerald-500"></i>agence<i class="fa-solid fa-arrow-right hover:dark:text-emerald-500 hover:text-red-500"></i></a>
+                            <a href="teams.html" class="text-black dark:text-white"><fa-icon [icon]="faArrowRight" class=" text-red-500 dark:text-emerald-500 "></fa-icon>l'agence<fa-icon [icon]="faArrowRight" class="fa-solid fa-arrow-right hover:dark:text-emerald-500 hover:text-red-500"></fa-icon></a>
                         </li>
                         <li>
-                            <a href="stories.html" class="text-black dark:text-white"><i class="fa-solid fa-arrow-right text-red-500 dark:text-emerald-500"></i>stories<i class="fa-solid fa-arrow-right hover:dark:text-emerald-500 hover:text-red-500"></i></a>
+                            <a href="stories.html" class="text-black dark:text-white"><fa-icon [icon]="faArrowRight" class=" text-red-500 dark:text-emerald-500 "></fa-icon>stories<fa-icon [icon]="faArrowRight" class="fa-solid fa-arrow-right hover:dark:text-emerald-500 hover:text-red-500"></fa-icon></a>
                         </li>
                     </ul>
                 </div>

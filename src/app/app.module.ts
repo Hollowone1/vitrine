@@ -21,6 +21,7 @@ import { ErrorCatchingInterceptor } from './core/interceptors/error-catching.int
 
 import { LayoutDefaultModule } from './layouts/layout-default/layout-default.module';
 import { LayoutFullModule } from './layouts/layout-full/layout-full.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -60,7 +61,8 @@ export function HttpTranslateLoader(http: HttpClient) {
       preventDuplicates: true
     }),
     LayoutDefaultModule,
-    LayoutFullModule
+    LayoutFullModule,
+    FontAwesomeModule
 
   ],
   providers: [

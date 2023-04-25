@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
     selector: 'app-navbar',
@@ -11,6 +12,7 @@ import { Component, OnInit } from '@angular/core';
         
     }
 
+    faArrowRight = faArrowRight
     selectList() {
 			
 			var list = document.getElementById("open");
