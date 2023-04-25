@@ -5,7 +5,6 @@ import { LayoutFull } from './layouts/layout-full/layout-full-routing.module';
 
 const routes: Routes = [
   LayoutDefault.childRoutes([
-
     {
       path:'',
       loadChildren: () => import('./pages/index/index.module').then(m => m.IndexModule)
