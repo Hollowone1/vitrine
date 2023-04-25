@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @import url('../font/MADE\ TOMMY\ Black.ttf');
 @import url('../font/MADE\ TOMMY\ Bold.ttf');
