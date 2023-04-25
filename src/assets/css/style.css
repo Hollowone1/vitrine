@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('../font/MADE\ TOMMY\ Black.ttf');
+@import url('../font/MADE\ TOMMY\ Bold.ttf');
+@import url('../font/MADE\ TOMMY\ ExtraBold.ttf');
+@import url('../font/MADE\ TOMMY\ Light.ttf');
+@import url('../font/MADE\ TOMMY\ Medium.ttf');
+@import url('../font/MADE\ TOMMY\ Regular.ttf');
+
 @font-face {
     font-family: MADE Tommy;
     src: url('../font/MADE\ TOMMY\ Black.ttf');
