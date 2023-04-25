@@ -57,3 +57,27 @@
   font-family: 'MADE Tommy', sans-serif;
   font-weight: 300;
 }
+
+.wave1{
+    background: url('./assets/img/general/wave1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wave2{
+    background: url('./assets/img/general/wave2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wave3{
+    background: url('./assets/img/general/wave3.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover{
+    background: url('./assets/img/project-details/DML-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
