@@ -7,6 +7,7 @@ import { LayoutDefaultComponent } from './layout-default.component';
 import { navbarModule } from 'src/app/layouts/navbar/navbar.module';
 import { footerModule } from '../footer/footer.module';
 
+
 @NgModule({
   declarations: [
     LayoutDefaultComponent
